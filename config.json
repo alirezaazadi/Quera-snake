@@ -1,0 +1,79 @@
+{
+  "cell_size": 30,
+  "back_color": [
+    255,
+    255,
+    255
+  ],
+  "fruit_color": [
+    255,
+    0,
+    0
+  ],
+  "block_color": [
+    139,
+    69,
+    19
+  ],
+  "block_cells": [
+    [
+      14,
+      14
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      16,
+      14
+    ]
+  ],
+  "sx": 30,
+  "sy": 50,
+  "table_size": 20,
+  "height": 800,
+  "width": 800,
+  "snakes": [
+    {
+      "keys": {
+        "w": "UP",
+        "s": "DOWN",
+        "a": "LEFT",
+        "d": "RIGHT"
+      },
+      "sx": 10,
+      "sy": 10,
+      "color": [
+        0,
+        240,
+        0
+      ],
+      "direction": "LEFT"
+    },
+    {
+      "keys": {
+        "i": "UP",
+        "k": "DOWN",
+        "j": "LEFT",
+        "l": "RIGHT"
+      },
+      "sx": 1,
+      "sy": 15,
+      "color": [
+        0,
+        0,
+        240
+      ],
+      "direction": "LEFT"
+    }
+  ]
+}
